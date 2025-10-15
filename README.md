@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#Preguntas
+###1. ¿Qué ventajas tiene usar React frente a trabajar solo con JavaScript puro para interfaces web?
+R/ React simplifica la creacion de interfaces graficas de usuario a través de componentes modulares y reutilizables los cuales hacen que el codigo sea mas organizado y mantenibles.
 
-## Getting Started
+###2. ¿Qué beneficios ofrece Next.js al trabajar sobre React?
+R/ Next.js es un framework de react el cual optimiza y acelera las aplicaciones y sitios web creados con react a traves del renderizado del lado del servidor y la generacion de sitios estaticos.
 
-First, run the development server:
+###3. ¿Qué significa que Next.js tenga un App Router y por qué se recomienda usarlo?
+R/ El app router es un enrutador de archivos que utiliza caracteristicas de react, este permite una mayor flexibilidad y facilita la obtencion de datos, con un enfoque modular que permite tener rutas y diseños anidados , mejorando la estructura y la reutilización en las aplicaciones.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+###4. ¿Qué diferencia hay entre client components y server components en Next.js?
+R/ Los componentes del servidor se ejecutan del lado del servidor, no requieren JavaScript por lo tanto no son interactivos, ideales para contenido estatico, en cambio los componentes del cliente si usan JavaScript ya que son interactivos. Los componentes del servidor son mas pequeños por lo tanto son mas ligeros de cargar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###5. ¿Por qué crees que en desarrollo profesional se usan repositorios públicos o privados en GitHub en lugar de solo trabajar en carpetas locales?
+R/ El uso los repositorios de github en el desarrollo profesional sirve para facilitar el trabajo en equipo, donde cada persona puede realizar sus respectivas tareas sobre las aplicaciones o sitios web en diferentes ramas y asi facilitar la integracion y revision de todos los cambios. Esto hace que el flujo de desarrollo sea más seguro, organizado que trabajar en carpetas locales.
