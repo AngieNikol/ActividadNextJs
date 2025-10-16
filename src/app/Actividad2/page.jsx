@@ -30,8 +30,6 @@ export default function Home() {
         }
     }
 
-
-
     return (
         <section className="bg-red-100 p-4 max-w-2xl mx-auto my-10">
             <div className="my-2 flex gap-2">

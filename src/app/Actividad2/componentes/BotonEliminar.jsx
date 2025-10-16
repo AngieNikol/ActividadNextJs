@@ -1,6 +1,6 @@
 export default function BotonEliminar({ tareas, setTareas }) {
     const eliminarTareas = () => {
-        setTareas([]); // Elimina todas las tareas al hacer clic en el botón
+        setTareas([]);
     }
 
     return (
